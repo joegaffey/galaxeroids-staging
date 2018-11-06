@@ -8,18 +8,31 @@ function initAudio() {
   
   var bufferLoader = new BufferLoader(GameAudio.context,
     [
-      './assets/shoot.wav',
-      './assets/fastinvader1.wav',
-      './assets/hitAlien.mp3',
-      './assets/ufo_highpitch.wav',
-      './assets/explosion.wav',
-      './assets/sound-frogger-hop.wav',      
-      './assets/pacman_eatghost.wav',
-      './assets/saucerSmall.wav',
-      './assets/saucerBig.wav',
-      './assets/pacman_eatfruit.wav',
-      './assets/thrust.wav',
-      './assets/intro8000.mp3'    
+      'https://cdn.glitch.com/1e654918-0ade-40b8-9a8e-674df6feb199%2Fshoot.wav?1499375807873',
+      'https://cdn.glitch.com/1e654918-0ade-40b8-9a8e-674df6feb199%2Ffastinvader1.wav?1499375911936',
+      'https://cdn.glitch.com/f55a21aa-208f-4d8d-9979-9758d85ca2b9%2FhitAlien.mp3?1512083761887',
+      'https://cdn.glitch.com/1e654918-0ade-40b8-9a8e-674df6feb199%2Fufo_highpitch.wav?1499375910630',
+      'https://cdn.glitch.com/1e654918-0ade-40b8-9a8e-674df6feb199%2Fexplosion.wav?1499375911491',
+      'https://cdn.glitch.com/f55a21aa-208f-4d8d-9979-9758d85ca2b9%2Fsound-frogger-hop.mp3?1511994094518',
+      'https://cdn.glitch.com/1e654918-0ade-40b8-9a8e-674df6feb199%2Fpacman_eatghost.wav?1504903948517',
+      'https://cdn.glitch.com/f55a21aa-208f-4d8d-9979-9758d85ca2b9%2FsaucerSmall.wav?1511979283826',
+      'https://cdn.glitch.com/f55a21aa-208f-4d8d-9979-9758d85ca2b9%2FsaucerBig.wav?1511979284354',
+      'https://cdn.glitch.com/f55a21aa-208f-4d8d-9979-9758d85ca2b9%2Fpacman_eatfruit.wav?1511979283539',
+      'https://cdn.glitch.com/f55a21aa-208f-4d8d-9979-9758d85ca2b9%2Fthrust.wav?1511992065618',
+      'https://cdn.glitch.com/f55a21aa-208f-4d8d-9979-9758d85ca2b9%2Fintro8000.mp3?1512083249049'
+    
+      // './assets/shoot.wav',
+      // './assets/fastinvader1.wav',
+      // './assets/hitAlien.mp3',
+      // './assets/ufo_highpitch.wav',
+      // './assets/explosion.wav',
+      // './assets/sound-frogger-hop.wav',      
+      // './assets/pacman_eatghost.wav',
+      // './assets/saucerSmall.wav',
+      // './assets/saucerBig.wav',
+      // './assets/pacman_eatfruit.wav',
+      // './assets/thrust.wav',
+      // './assets/intro8000.mp3'    
     ],
     GameAudio.finishedLoading);
   bufferLoader.load();
