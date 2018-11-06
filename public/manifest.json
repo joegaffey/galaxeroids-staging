@@ -7,7 +7,7 @@
   "display": "fullscreen",
   "orientation": "landscape",
   "splash_pages": null,
-  "start_url": "/",
+  "start_url": "https://joegaffey.github.io/galaxeroids-staging/public",
   "icons": [
     {
         "src": "/assets/894b736e-ef3b-1128-00de-53406d6c3d14.webPlatform.png",
